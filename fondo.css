@@ -94,9 +94,10 @@ div {
 
 .redes img {
     width: 30px;
-    margin-top: 20px;
-    border-radius: 0%;
     height: auto;
+    margin-top: 20px;
     margin-inline: 10px;
+    border: none;           /* Elimina cualquier borde */
+    border-radius: 0;       /* Sin bordes redondeados */
     filter: sepia(20%) brightness(1.1);
 }
