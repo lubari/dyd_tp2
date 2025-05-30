@@ -1,76 +1,102 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap');
+
+* {
     margin: 0;
     padding: 0;
-    font-family: "Inconsolata", monospace;
+    font-family: 'Quicksand', sans-serif;
     font-optical-sizing: auto;
-    font-weight: 500px;
+    font-weight: 400;
     font-size: 20px;
 }
-h1{
+
+body {
+    background-color: #5B2C2C; /* Fondo oscuro */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #F6E8DA; /* Texto claro para contraste */
+}
+
+h1 {
     text-align: center;
     font-size: 250%;
+    color: #F6E8DA;
 }
-h2{
+
+h2 {
     text-align: center;
+    color: #F6E8DA;
 }
-header{
+
+header {
     text-align: center;
     margin-top: 2px;
 }
-header ul li{
+
+header ul li {
     display: inline;
 }
-header a{
-    text-emphasis: none;
+
+header a {
     text-decoration: none;
+    color: #F6E8DA;
 }
-img{
+
+img {
     width: 200px;
     border-radius: 100px;
     margin-top: 20px;
     margin-bottom: 20px;
     object-fit: cover;
+    border: 4px solid #F6E8DA; /* Borde crema */
 }
-nav{
+
+nav {
     text-align: center;
     margin-top: 30px;
 }
-nav li{
+
+nav li {
     margin-bottom: 40px;
 }
+
 nav a {
     padding: 10px 200px;
-    background-color: wheat;
+    background-color: #F6E8DA; /* Crema cálido */
+    color: #5B2C2C; /* Café oscuro */
     border-radius: 20px;
     display: inline-block;
-    text-emphasis: none;
     text-decoration: none;
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
 }
-div{
+
+nav a:hover {
+    background-color: #E5B4A2; /* Rosa empolvado */
+    color: #8A6C5A; /* Marrón grisáceo */
+}
+
+div {
     text-align: center;
 }
-.test{
-    background-color: red;
+
+.test {
+    background-color: #E5B4A2; /* Rosa empolvado */
     width: fit-content;
     margin: 0 auto;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: #5B2C2C;
 }
-body{
-    /*background-image: url("imagenes/Birthday_Birthday_wallpapers_full_list_Animal_crossing_wallpaper_1920x1080.jpg");*/
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-color: rgb(116, 142, 107);
-}
-.redes{
+
+.redes {
     display: inline-block;
 }
-.redes img{
+
+.redes img {
     width: 30px;
-    margin-top: 30px;
-    text-align: center;
     margin-top: 20px;
     border-radius: 0%;
     height: auto;
     margin-inline: 10px;
+    filter: sepia(20%) brightness(1.1);
 }
-
-
