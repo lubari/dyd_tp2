@@ -370,3 +370,55 @@ nav li {
     color: #D9A5B3;
 }
 
+.perfume-list-vertical {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 30px;
+}
+
+.perfume-item {
+    display: flex;
+    background-color: #FFF6F3;
+    border-right: 1px solid #D9A5B3;
+    border-left: 1px solid #D9A5B3;
+    border-bottom-right-radius: 1px solid #D9A5B3;
+    border-bottom-left-radius: 1px solid #D9A5B3;
+    border-radius: 12px;
+    padding: 15px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.perfume-item img {
+    width: 50%; /* Asegura que la imagen se adapte al contenedor */
+    max-width: 300px; /* Aumentá este valor si querés más tamaño */
+    height: auto;
+    border-radius: 10px;
+    object-fit: cover;
+    border-radius: 10px;
+    flex-shrink: 0;
+    margin-bottom: 10px;
+}
+
+.perfume-info h3 {
+    color: #8A6C5A;
+    margin-bottom: 8px;
+    font-size: 1.2rem;
+}
+
+.perfume-info p {
+    font-size: 0.95rem;
+    color: #4A4A4A;
+    line-height: 1.6;
+}
+
+.perfume-item {
+    flex-direction: row;
+    text-align: center;
+}
+
