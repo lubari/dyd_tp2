@@ -414,7 +414,6 @@ nav li {
     line-height: 1.6;
 }
 
-/* Responsive styles */
 @media (max-width: 768px) {
     .perfume-item {
         flex-direction: column;
