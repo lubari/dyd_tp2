@@ -70,6 +70,7 @@ nav {
 nav li {     
     display: inline-block;
 }
+
 nav ul {
     list-style: none;
     gap: 20px;
@@ -216,7 +217,7 @@ aside .redes ul li {
 
 .perfil{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 20px; 
     justify-content: center;
 }
 .profile-pic {
@@ -224,6 +225,14 @@ aside .redes ul li {
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 30px;
+}
+.contacto a{
+    text-decoration: none;
+    font-weight: bold;
+    color: inherit;
+}
+.contacto a:hover {
+    color: #5C4099; 
 }
 footer {
     background-color: #D4AF7F;
@@ -426,4 +435,13 @@ nav li {
         max-width: 100%;
         margin-bottom: 10px;
     }
+}
+
+.posteos a { 
+    text-decoration: none;
+    color: inherit;
+}
+
+.posteos a:hover {
+    color: #5C4099; 
 }
