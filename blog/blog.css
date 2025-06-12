@@ -445,3 +445,17 @@ nav li {
 .posteos a:hover {
     color: #5C4099; 
 }
+
+.blog-entry .tabla-responsive {
+    overflow-x: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center; 
+}
+
+.blog-entry table {
+    width: 100%;
+    max-width: 700px;
+    border-collapse: collapse;
+    text-align: center;
+}
