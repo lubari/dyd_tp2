@@ -7,19 +7,6 @@ Este proyecto consiste en una **página web tipo Linktree**, desarrollada como p
 
 ---
 
-## 📁 Estructura del Proyecto
-
-dyd_tp2/
-├── index.html # Página principal tipo Linktree
-├── blog.html # Página de blog
-├── recursos.html # Página de recursos o enlaces adicionales
-├── css/
-│ └── styles.css # Estilos personalizados
-├── img/
-│ └── ... # Imágenes utilizadas en las páginas
-└── README.md # Este archivo
----
-
 ## 🖼️ Descripción
 
 - `index.html`: Página principal con enlaces visuales a otras secciones.
