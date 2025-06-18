@@ -483,6 +483,7 @@ form {
     border-radius: 10px;
     justify-content: center;
     align-items: center;
+    text-align: center;
     background-color: #D9A5B3;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
