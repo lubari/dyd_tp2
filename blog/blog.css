@@ -1,5 +1,15 @@
+:root {
+    --primary-color: #D9A5B3;
+    --secondary-color: #EFD6D2;
+    --text-color: #4A4A4A;
+    --background-color: #FAF3F0;
+    --accent-color: #8A6C5A;
+    --font-family: 'Lato', sans-serif;
+    --font-family-serif: 'Playfair Display', serif;
+}
+
 body {
-        font-family: 'Lato', sans-serif;
+    font-family: var(--font-family);
 }
 h1, h2, h3 {
     font-family: 'Playfair Display', serif;
@@ -13,8 +23,8 @@ h1, h2, h3 {
 }
 
 body {
-    background-color: #FAF3F0;
-    color: #4A4A4A;
+    background-color: var(--background-color);
+    color: var(--text-color);
     line-height: 1.6;
 }
 
@@ -27,7 +37,7 @@ main {
     padding: 20px;
 }
 nav {
-    background-color: #EFD6D2;
+    background-color: var(--secondary-color);
     padding: 15px 0;
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
@@ -47,7 +57,7 @@ nav {
 }
 
 .nav-menu a {
-    color: #4A4A4A;
+    color: var(--text-color);
     text-decoration: none;
     font-weight: bold;
     font-size: 1rem;
@@ -58,7 +68,7 @@ nav {
 
 .nav-menu a:hover {
     color: #FFFFFF;
-    background-color: #D9A5B3;
+    background-color: var(--primary-color);
 }
 @media (max-width: 768px) {
     .nav-menu {
@@ -460,14 +470,58 @@ nav li {
     text-align: center;
 }
 
-form{
+form {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     gap: 15px;
     margin-top: 20px;
-    height: 50vh;
+    padding: 30px;
+    height: auto;
+    margin: auto;
+    width: 90%;
+    max-width: 500px;
+    border-radius: 10px;
     justify-content: center;
     align-items: center;
-    text-align: left;
     background-color: #D9A5B3;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+form label {
+    align-self: flex-start;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    color: #3b3b3b;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    resize: vertical;
+}
+
+form textarea {
+    min-height: 100px;
+}
+
+
+form button {
+    background-color: #A7558B;
+    color: white;
+    padding: 10px 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+form button:hover {
+    background-color: #8c4373;
 }
