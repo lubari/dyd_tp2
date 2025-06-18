@@ -459,3 +459,15 @@ nav li {
     border-collapse: collapse;
     text-align: center;
 }
+
+form{
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    margin-top: 20px;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+    background-color: #D9A5B3;
+}
